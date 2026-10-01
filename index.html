@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    (function () {
+      var d = document.documentElement;
+      d.classList.add('js');
+      try {
+        var t = localStorage.getItem('kc-theme');
+        if (t !== 'light' && t !== 'dark') t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        d.setAttribute('data-theme', t);
+      } catch (e) { d.setAttribute('data-theme', 'light'); }
+    })();
+  </script>
+
+  <title>KC Event – Tổ Chức Sự Kiện, Team Building &amp; Tour Doanh Nghiệp Trọn Gói</title>
+  <meta name="description" content="KC Event tổ chức sự kiện trọn gói: khởi công, khai trương, gala dinner, hội nghị, team building, tour doanh nghiệp, thi công gian hàng, cho thuê sân khấu – âm thanh – ánh sáng. Báo giá trong 30 phút.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://kcevent.vn/">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a1020" media="(prefers-color-scheme: dark)">
+  <meta name="format-detection" content="telephone=no">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="vi_VN">
+  <meta property="og:site_name" content="KC Event">
+  <meta property="og:url" content="https://kcevent.vn/">
+  <meta property="og:title" content="KC Event – Tổ Chức Sự Kiện, Team Building &amp; Tour Doanh Nghiệp Trọn Gói">
+  <meta property="og:description" content="Đơn vị tổ chức sự kiện, team building, tour doanh nghiệp và thi công gian hàng trọn gói. 10+ năm kinh nghiệm, 500+ sự kiện thành công.">
+  <meta property="og:image" content="https://kcevent.vn/assets/img/og-kc-event.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Sân khấu sự kiện Year End Party do KC Event tổ chức">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="KC Event – Tổ Chức Sự Kiện, Team Building &amp; Tour Doanh Nghiệp Trọn Gói">
+  <meta name="twitter:description" content="Đơn vị tổ chức sự kiện, team building, tour doanh nghiệp và thi công gian hàng trọn gói.">
+  <meta name="twitter:image" content="https://kcevent.vn/assets/img/og-kc-event.jpg">
+
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/img/favicon-48.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <link rel="preload" as="image" href="assets/img/hero-su-kien-kc-event-1280.webp" imagesrcset="assets/img/hero-su-kien-kc-event-768.webp 768w, assets/img/hero-su-kien-kc-event-1280.webp 1280w, assets/img/hero-su-kien-kc-event-1920.webp 1920w" imagesizes="100vw" fetchpriority="high">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&amp;display=swap">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["Organization", "LocalBusiness"],
+        "@id": "https://kcevent.vn/#organization",
+        "name": "KC Event",
+        "legalName": "CÔNG TY TNHH TỔ CHỨC SỰ KIỆN VÀ TRUYỀN THÔNG KC GROUP",
+        "url": "https://kcevent.vn/",
+        "logo": "https://kcevent.vn/assets/img/icon-512.png",
+        "image": "https://kcevent.vn/assets/img/og-kc-event.jpg",
+        "description": "Công ty tổ chức sự kiện, team building, tour du lịch doanh nghiệp, thi công gian hàng và cung cấp trang thiết bị sự kiện trọn gói.",
+        "taxID": "0111572242",
+        "telephone": "+84981941820",
+        "email": "truyenthongsukienkcgroup@gmail.com",
+        "priceRange": "$$",
+        "areaServed": { "@type": "Country", "name": "Việt Nam" },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Khu Đô Thị Thanh Hà, Cự Khê, Thanh Oai",
+          "addressLocality": "Hà Nội",
+          "addressCountry": "VN"
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "08:00",
+          "closes": "18:30"
+        },
+        "sameAs": ["https://facebook.com/kcevent.vn", "https://youtube.com/@kcevent"],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Dịch vụ KC Event",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tổ chức sự kiện doanh nghiệp", "url": "https://kcevent.vn/#su-kien" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Thiết kế 2D & phối cảnh 3D sự kiện", "url": "https://kcevent.vn/#thiet-ke-2d-3d" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Thi công & lắp đặt gian hàng hội chợ triển lãm", "url": "https://kcevent.vn/#thi-cong-gian-hang" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Cung cấp sân khấu, âm thanh, ánh sáng, nhân sự sự kiện", "url": "https://kcevent.vn/#trang-thiet-bi-su-kien" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tổ chức biểu diễn nghệ thuật", "url": "https://kcevent.vn/#bieu-dien-nghe-thuat" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tổ chức diễn tập thực địa & trên biển", "url": "https://kcevent.vn/#dien-tap-tren-bien" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tour du lịch doanh nghiệp & Company Trip", "url": "https://kcevent.vn/#tour-du-lich" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tổ chức Team Building", "url": "https://kcevent.vn/#team-building" } }
+          ]
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://kcevent.vn/#website",
+        "url": "https://kcevent.vn/",
+        "name": "KC Event",
+        "inLanguage": "vi-VN",
+        "publisher": { "@id": "https://kcevent.vn/#organization" }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://kcevent.vn/#faq",
+        "mainEntity": [
+          { "@type": "Question", "name": "KC Event tổ chức những loại sự kiện nào?", "acceptedAnswer": { "@type": "Answer", "text": "Chúng tôi tổ chức trọn gói lễ khởi công, khánh thành, khai trương, gala dinner, Year End Party, hội nghị – hội thảo, ra mắt sản phẩm, biểu diễn nghệ thuật, diễn tập thực địa; đồng thời thiết kế 2D/3D, thi công gian hàng hội chợ triển lãm, cung cấp sân khấu – âm thanh – ánh sáng – nhân sự, tour du lịch doanh nghiệp và team building." } },
+          { "@type": "Question", "name": "Bao lâu tôi nhận được báo giá?", "acceptedAnswer": { "@type": "Answer", "text": "Sau khi nhận thông tin qua form, hotline hoặc Zalo, chuyên viên KC Event phản hồi báo giá sơ bộ trong khoảng 15–30 phút làm việc. Báo giá chi tiết kèm phương án, kịch bản được gửi sau khi thống nhất yêu cầu." } },
+          { "@type": "Question", "name": "KC Event có tổ chức sự kiện ngoài Hà Nội không?", "acceptedAnswer": { "@type": "Answer", "text": "Có. Văn phòng tại Hà Nội nhưng KC Event triển khai sự kiện, gian hàng, team building và tour doanh nghiệp tại nhiều tỉnh thành như Quảng Ninh, Hải Phòng, Đà Nẵng, Lạng Sơn, TP. Hồ Chí Minh…" } },
+          { "@type": "Question", "name": "Quy mô sự kiện KC Event đảm nhận là bao nhiêu?", "acceptedAnswer": { "@type": "Answer", "text": "Từ chương trình nhỏ khoảng 50 khách đến sự kiện hơn 2.000 khách mời, với đầy đủ nhân sự điều hành, kỹ thuật và thiết bị." } },
+          { "@type": "Question", "name": "Tôi có được xem thiết kế 3D trước khi thi công không?", "acceptedAnswer": { "@type": "Answer", "text": "Có. Sân khấu, gian hàng, backdrop và toàn cảnh không gian đều được dựng phối cảnh 2D/3D để khách hàng duyệt trước khi sản xuất, thi công thực tế." } },
+          { "@type": "Question", "name": "Chi phí có phát sinh và có xuất hóa đơn VAT không?", "acceptedAnswer": { "@type": "Answer", "text": "Báo giá liệt kê rõ từng hạng mục thiết bị, nhân sự, địa điểm; không phát sinh ngoài hợp đồng. KC Event quyết toán và xuất hóa đơn chứng từ đầy đủ theo quy định." } }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Bỏ qua tới nội dung chính</a>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="KC Event – Trang chủ">
+        <img src="assets/img/logo-kc.webp" alt="" width="52" height="38">
+        <span class="brand-name">KC <span>EVENT</span><small class="brand-sub">Events &amp; Corporate Travel</small></span>
+      </a>
+
+      <nav class="main-nav" aria-label="Điều hướng chính">
+        <ul class="nav-list">
+          <li class="nav-dropdown">
+            <a href="#dich-vu" class="nav-link" aria-haspopup="true">Dịch vụ
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </a>
+            <ul class="dropdown">
+              <li><a href="#su-kien">Tổ chức sự kiện</a></li>
+              <li><a href="#thiet-ke-2d-3d">Thiết kế 2D &amp; 3D</a></li>
+              <li><a href="#thi-cong-gian-hang">Lắp đặt gian hàng sự kiện</a></li>
+              <li><a href="#trang-thiet-bi-su-kien">Trang thiết bị sự kiện</a></li>
+              <li><a href="#bieu-dien-nghe-thuat">Biểu diễn nghệ thuật</a></li>
+              <li><a href="#dien-tap-tren-bien">Diễn tập trên biển</a></li>
+              <li><a href="#tour-du-lich">Tour du lịch doanh nghiệp</a></li>
+              <li><a href="#team-building">Team Building</a></li>
+            </ul>
+          </li>
+          <li><a href="#gioi-thieu" class="nav-link">Giới thiệu</a></li>
+          <li><a href="#quy-trinh" class="nav-link">Quy trình</a></li>
+          <li><a href="#du-an" class="nav-link">Dự án</a></li>
+          <li><a href="#hoi-dap" class="nav-link">Hỏi đáp</a></li>
+          <li><a href="#lien-he" class="nav-link">Liên hệ</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="tel:0981941820" class="header-hotline" data-bind="hotline-link" aria-label="Gọi hotline 0981 941 820">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span data-bind="hotline">0981.941.820</span>
+        </a>
+        <button type="button" class="icon-btn theme-toggle" aria-label="Chuyển giao diện sáng/tối">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        </button>
+        <button type="button" class="btn btn-accent btn-sm header-cta" data-open-modal>Nhận báo giá</button>
+        <button type="button" class="icon-btn menu-toggle" aria-label="Mở menu" aria-expanded="false" aria-controls="drawer">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile drawer -->
+  <aside class="drawer" id="drawer" aria-label="Menu di động" aria-hidden="true">
+    <div class="drawer-head">
+      <span class="brand-name">KC <span>EVENT</span></span>
+      <button type="button" class="icon-btn drawer-close" aria-label="Đóng menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    </div>
+    <nav class="drawer-nav" aria-label="Điều hướng di động">
+      <a href="#dich-vu">Dịch vụ</a>
+      <div class="sub">
+        <a href="#su-kien">Tổ chức sự kiện</a>
+        <a href="#thiet-ke-2d-3d">Thiết kế 2D &amp; 3D</a>
+        <a href="#thi-cong-gian-hang">Lắp đặt gian hàng sự kiện</a>
+        <a href="#trang-thiet-bi-su-kien">Trang thiết bị sự kiện</a>
+        <a href="#bieu-dien-nghe-thuat">Biểu diễn nghệ thuật</a>
+        <a href="#dien-tap-tren-bien">Diễn tập trên biển</a>
+        <a href="#tour-du-lich">Tour du lịch doanh nghiệp</a>
+        <a href="#team-building">Team Building</a>
+      </div>
+      <a href="#gioi-thieu">Giới thiệu</a>
+      <a href="#quy-trinh">Quy trình</a>
+      <a href="#du-an">Dự án</a>
+      <a href="#hoi-dap">Hỏi đáp</a>
+      <a href="#lien-he">Liên hệ</a>
+    </nav>
+    <div class="drawer-actions">
+      <a href="tel:0981941820" class="btn btn-ghost btn-block" data-bind="hotline-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span data-bind="hotline">0981.941.820</span></a>
+      <button type="button" class="btn btn-accent btn-block" data-open-modal>Nhận báo giá trọn gói</button>
+    </div>
+  </aside>
+  <div class="backdrop" aria-hidden="true"></div>
+
+  <main id="main">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-media">
+        <img src="assets/img/hero-su-kien-kc-event-1280.webp"
+             srcset="assets/img/hero-su-kien-kc-event-768.webp 768w, assets/img/hero-su-kien-kc-event-1280.webp 1280w, assets/img/hero-su-kien-kc-event-1920.webp 1920w"
+             sizes="100vw" width="1920" height="1279" fetchpriority="high" decoding="async"
+             alt="Sảnh tiệc Year End Party với sân khấu LED và thảm đỏ do KC Event tổ chức">
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          <p class="hero-badge"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>Tổ chức sự kiện &amp; tour doanh nghiệp trọn gói</p>
+          <h1 id="hero-title">Kiến tạo <span class="hl">sự kiện đẳng cấp</span> &amp; tour doanh nghiệp đột phá</h1>
+          <p class="hero-desc">KC Event đồng hành cùng hàng trăm doanh nghiệp trên toàn quốc: lễ khởi công, khai trương, gala dinner, hội nghị, team building, company trip, thi công gian hàng và cung cấp thiết bị sự kiện.</p>
+          <div class="hero-cta">
+            <button type="button" class="btn btn-accent btn-lg" data-open-modal>Nhận báo giá miễn phí</button>
+            <a href="#dich-vu" class="btn btn-light btn-lg">Khám phá dịch vụ <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+        </div>
+        <dl class="hero-stats">
+          <div><dt class="sr-only">Kinh nghiệm</dt><dd><div class="stat-num">10<span>+</span></div><div class="stat-label">Năm kinh nghiệm</div></dd></div>
+          <div><dt class="sr-only">Sự kiện</dt><dd><div class="stat-num">500<span>+</span></div><div class="stat-label">Sự kiện thành công</div></dd></div>
+          <div><dt class="sr-only">Tour</dt><dd><div class="stat-num">200<span>+</span></div><div class="stat-label">Company trip &amp; tour</div></dd></div>
+          <div><dt class="sr-only">Khách hàng</dt><dd><div class="stat-num">100<span>+</span></div><div class="stat-label">Doanh nghiệp đồng hành</div></dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ===== DỊCH VỤ (TABS) ===== -->
+    <section class="section" id="dich-vu" aria-labelledby="dich-vu-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Dịch vụ trọn gói</p>
+          <h2 class="section-title" id="dich-vu-title">Giải pháp sự kiện toàn diện cho doanh nghiệp</h2>
+          <p class="section-desc">Từ ý tưởng, thiết kế 3D, thi công đến vận hành thực tế – một đầu mối duy nhất cho mọi hạng mục.</p>
+        </header>
+
+        <div class="tabs" role="tablist" aria-label="Danh mục dịch vụ" data-tabs="services">
+          <button class="tab" role="tab" id="tab-su-kien" aria-controls="su-kien" aria-selected="true">Tổ chức sự kiện</button>
+          <button class="tab" role="tab" id="tab-thiet-ke-2d-3d" aria-controls="thiet-ke-2d-3d" aria-selected="false" tabindex="-1">Thiết kế 2D &amp; 3D</button>
+          <button class="tab" role="tab" id="tab-thi-cong-gian-hang" aria-controls="thi-cong-gian-hang" aria-selected="false" tabindex="-1">Gian hàng sự kiện</button>
+          <button class="tab" role="tab" id="tab-trang-thiet-bi-su-kien" aria-controls="trang-thiet-bi-su-kien" aria-selected="false" tabindex="-1">Trang thiết bị</button>
+          <button class="tab" role="tab" id="tab-bieu-dien-nghe-thuat" aria-controls="bieu-dien-nghe-thuat" aria-selected="false" tabindex="-1">Biểu diễn nghệ thuật</button>
+          <button class="tab" role="tab" id="tab-dien-tap-tren-bien" aria-controls="dien-tap-tren-bien" aria-selected="false" tabindex="-1">Diễn tập trên biển</button>
+        </div>
+
+        <!-- Tổ chức sự kiện -->
+        <div class="tab-panel" id="su-kien" role="tabpanel" aria-labelledby="tab-su-kien">
+          <div class="panel-head">
+            <div>
+              <h3 class="panel-title">Tổ chức sự kiện doanh nghiệp chuyên nghiệp</h3>
+              <p class="panel-desc">Từ nghi lễ khởi công – khánh thành đến đêm Gala giàu cảm xúc: trọn gói từ ý tưởng, thiết kế 3D đến điều hành sân khấu thực tế.</p>
+            </div>
+          </div>
+          <div class="grid">
+            <article class="card reveal">
+              <div class="card-media">
+                <img src="assets/img/le-khoi-cong-khanh-thanh-800.webp" srcset="assets/img/le-khoi-cong-khanh-thanh-480.webp 480w, assets/img/le-khoi-cong-khanh-thanh-800.webp 781w" sizes="(max-width: 640px) 92vw, (max-width: 960px) 46vw, 380px" width="781" height="507" alt="Tổ chức lễ khởi công và khánh thành với sân khấu, lân sư rồng và nghi thức động thổ" loading="lazy" decoding="async">
+                <span class="card-tag">Nghi lễ trang trọng</span>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Lễ khởi công &amp; khánh thành</h4>
+                <p class="card-text">Nhà bạt không gian điều hòa cao cấp, cổng hơi đón khách, bục xúc cát động thổ, nghi thức lân sư rồng và kịch bản đón tiếp khách VIP chu đáo.</p>
+                <div class="card-foot"><button type="button" class="link-arrow" data-open-modal>Nhận báo giá</button></div>
+              </div>
+            </article>
+            <article class="card reveal">
+              <div class="card-media">
+                <img src="assets/img/le-khai-truong-showroom-800.webp" srcset="assets/img/le-khai-truong-showroom-480.webp 480w, assets/img/le-khai-truong-showroom-800.webp 800w" sizes="(max-width: 640px) 92vw, (max-width: 960px) 46vw, 380px" width="800" height="533" alt="Lễ khai trương showroom VinFast với cổng chào và photobooth" loading="lazy" decoding="async">
+                <span class="card-tag">Khai trương nổi bật</span>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Lễ khai trương (Grand Opening)</h4>
+                <p class="card-text">Photobooth check-in ấn tượng, hoa chúc mừng nghệ thuật, PG chuyên nghiệp, nghi thức cắt băng và chương trình ưu đãi sôi nổi trong ngày mở cửa.</p>
+                <div class="card-foot"><button type="button" class="link-arrow" data-open-modal>Nhận báo giá</button></div>
+              </div>
+            </article>
+            <article class="card reveal">
+              <div class="card-media">
+                <img src="assets/img/gala-dinner-ky-niem-800.webp" srcset="assets/img/gala-dinner-ky-niem-480.webp 480w, assets/img/gala-dinner-ky-niem-800.webp 800w" sizes="(max-width: 640px) 92vw, (max-width: 960px) 46vw, 380px" width="800" height="533" alt="Setup bàn tiệc gala dinner với sân khấu LED và ánh sáng sang trọng" loading="lazy" decoding="async">
+                <span class="card-tag">Đêm tiệc thăng hoa</span>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Gala dinner &amp; kỷ niệm thành lập</h4>
+                <p class="card-text">Không gian tiệc sang trọng, kịch bản tôn vinh thành tích, MC dẫn dắt cảm xúc, màn hình LED cong và âm thanh ánh sáng đỉnh cao.</p>
+                <div class="card-foot"><button type="button" class="link-arrow" data-open-modal>Nhận báo giá</button></div>
+              </div>
+            </article>
+            <article class="card reveal">
+              <div class="card-media">
+                <img src="assets/img/year-end-party-tat-nien-800.webp" srcset="assets/img/year-end-party-tat-nien-480.webp 480w, assets/img/year-end-party-tat-nien-800.webp 800w" sizes="(max-width: 640px) 92vw, (max-width: 960px) 46vw, 380px" width="800" height="533" alt="Backdrop check-in Year End Party công ty ISC Vina" loading="lazy" decoding="async">
+                <span class="card-tag">Bùng nổ cảm xúc</span>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Year End Party &amp; tiệc tất niên</h4>
+                <p class="card-text">Khép lại năm cũ, chào đón hành trình mới: tôn vinh nhân sự cống hiến, minigame bốc thăm trúng thưởng và không khí gắn kết.</p>
+                <div class="card-foot"><button type="button" class="link-arrow" data-open-modal>Nhận báo giá</button></div>
+              </div>
+            </article>
+            <article class="card reveal">
+              <div class="card-media">
+                <img src="assets/img/hoi-nghi-hoi-thao-tri-an-800.webp" srcset="assets/img/hoi-nghi-hoi-thao-tri-an-480.webp 480w, assets/img/hoi-nghi-hoi-thao-tri-an-800.webp 800w" sizes="(max-width: 640px) 92vw, (max-width: 960px) 46vw, 380px" width="800" height="600" alt="Sảnh hội nghị và lễ vinh danh VARS Awards" loading="lazy" decoding="async">
+                <span class="card-tag">Đẳng cấp quốc tế</span>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Hội nghị, hội thảo &amp; tri ân</h4>
+                <p class="card-text">Hội thảo khoa học, hội nghị khách hàng, lễ trao giải và vinh danh thường niên với cabin phiên dịch, trình chiếu chuyên nghiệp và sảnh check-in VIP.</p>
+                <div class="card-foot"><button type="button" class="link-arrow" data-open-modal>Nhận báo giá</button></div>
+              </div>
+            </article>
+            <article class="card reveal">
+              <div class="card-media">
+                <img src="assets/img/teabreak-ra-mat-san-pham-800.webp" srcset="assets/img/teabreak-ra-mat-san-pham-480.webp 480w, assets/img/teabreak-ra-mat-san-pham-800.webp 800w" sizes="(max-width: 640px) 92vw, (max-width: 960px) 46vw, 380px" width="800" height="533" alt="Bàn tiệc teabreak với bánh ngọt và hoa tươi trang trí" loading="lazy" decoding="async">
+                <span class="card-tag">Tiếp đón chu đáo</span>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Ra mắt sản phẩm &amp; teabreak catering</h4>
+                <p class="card-text">Lễ ra mắt sản phẩm mới (ô tô, bất động sản, công nghệ), tiệc trà teabreak hoa tươi thanh lịch và finger food chuẩn vị cho đối tác tham dự.</p>
+                <div class="card-foot"><button type="button" class="link-arrow" data-open-modal>Nhận báo giá</button></div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- Thiết kế 2D & 3D -->
+        <div class="tab-panel" id="thiet-ke-2d-3d" role="tabpanel" aria-labelledby="tab-thiet-ke-2d-3d">
+          <div class="panel-head">
+            <div>
+              <h3 class="panel-title">Thiết kế 2D &amp; phối cảnh 3D không gian sự kiện</h3>
+              <p class="panel-desc">Bản vẽ phối cảnh 3D trực quan, chuẩn xác từ kết cấu sân khấu, ánh sáng, photobooth đến toàn cảnh hội trường – duyệt trước khi thi công.</p>
+            </div>
+          </div>
+          <div class="grid">
+            <article class="card reveal">
+              <div class="card-media">
+                <img src="assets/img/thiet-ke-3d-san-khau-hoi-nghi-800.webp" srcset="assets/img/thiet-ke-3d-san-khau-hoi-nghi-480.webp 480w, assets/img/thiet-ke-3d-san-khau-hoi-nghi-800.webp 800w" sizes="(max-width: 640px) 92vw, (max-width: 960px) 46vw, 380px" width="800" height="419" alt="Maket 3D sân khấu hội nghị chuyên nghiệp" loading="lazy" decoding="async">
+                <span class="card-tag">Maket sân khấu 3D</span>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Thiết kế sân khấu &amp; hiệu ứng LED 3D</h4>
+                <p class="card-text">Phối cảnh 3D chi tiết từng góc nhìn sân khấu, màn hình LED cong, bố trí âm thanh ánh sáng theo chuẩn nhận diện thương hiệu.</p>
+                <div class="card-foot"><button type="button" class="link-arrow" data-open-modal>Nhận bản vẽ 3D</button></div>
+              </div>
+            </article>
+            <article class="card reveal">
+              <div class="card-media">
+                <img src="assets/img/thiet-ke-3d-gian-hang-trien-lam-800.webp" srcset="assets/img/thiet-ke-3d-gian-hang-trien-lam-480.webp 480w, assets/img/thiet-ke-3d-gian-hang-trien-lam-800.webp 800w" sizes="(max-width: 640px) 92vw, (max-width: 960px) 46vw, 380px" width="800" height="450" alt="Phối cảnh 3D gian hàng triển lãm du lịch Đồng Nai" loading="lazy" decoding="async">
+                <span class="card-tag">Gian hàng 3D</span>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Thiết kế gian hàng triển lãm &amp; booth 3D</h4>
+                <p class="card-text">Tối ưu không gian trưng bày, tạo điểm nhấn thu hút khách tham quan với thiết kế hiện đại, bục trưng bày sang trọng và ánh sáng nổi bật.</p>
+                <div class="card-foot"><button type="button" class="link-arrow" data-open-modal>Tư vấn thiết kế</button></div>
+              </div>
+            </article>
+            <article class="card reveal">
+              <div class="card-media">
+                <img src="assets/img/thiet-ke-2d-backdrop-photobooth-800.webp" srcset="assets/img/thiet-ke-2d-backdrop-photobooth-480.webp 480w, assets/img/thiet-ke-2d-backdrop-photobooth-800.webp 800w" sizes="(max-width: 640px) 92vw, (max-width: 960px) 46vw, 380px" width="800" height="593" alt="Thiết kế 2D backdrop và photobooth check-in" loading="lazy" decoding="async">
+                <span class="card-tag">Bộ nhận diện 2D</span>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Thiết kế 2D backdrop, standee &amp; ấn phẩm</h4>
+                <p class="card-text">Bộ nhận diện sự kiện trọn gói: backdrop sân khấu, standee, thiệp mời VIP, thẻ đại biểu và banner truyền thông đồng bộ.</p>
+                <div class="card-foot"><button type="button" class="link-arrow" data-open-modal>Yêu cầu thiết kế</button></div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- Gian hàng -->
+        <div class="tab-panel" id="thi-cong-gian-hang" role="tabpanel" aria-labelledby="tab-thi-cong-gian-hang">
+          <div class="panel-head">
+            <div>
+              <h3 class="panel-title">Thi công &amp; lắp đặt gian hàng sự kiện trọn gói</h3>
+              <p class="panel-desc">Tư vấn thiết kế, sản xuất và lắp đặt gian hàng hội chợ, triển lãm thương mại, ngày hội xúc tiến du lịch và giao thương cấp tỉnh, quốc gia.</p>
+            </div>
+          </div>
+          <div class="grid">
+            <article class="card reveal">
+              <div class="card-media">
+                <img src="assets/img/gian-hang-pavilion-cap-tinh-800.webp" srcset="assets/img/gian-hang-pavilion-cap-tinh-480.webp 480w, assets/img/gian-hang-pavilion-cap-tinh-800.webp 800w" sizes="(max-width: 640px) 92vw, (max-width: 960px) 46vw, 380px" width="800" height="450" alt="Nhà gian hàng quy mô lớn của Trung tâm Xúc tiến Đầu tư, Thương mại và Du lịch tỉnh Lạng Sơn" loading="lazy" decoding="async">
+                <span class="card-tag">Pavilion cấp tỉnh</span>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Nhà gian hàng quy mô lớn cấp tỉnh</h4>
+                <p class="card-text">Khung giàn không gian rộng, cổng chào mang bản sắc địa phương, màn hình LED, quầy lễ tân, khu tiếp khách và kệ trưng bày – cho các sở, ban, ngành xúc tiến đầu tư, thương mại, du lịch.</p>
+                <div class="card-foot"><button type="button" class="link-arrow" data-open-modal>Nhận báo giá thi công</button></div>
+              </div>
+            </article>
+            <article class="card reveal">
+              <div class="card-media">
+                <img src="assets/img/gian-hang-hoi-cho-ocop-800.webp" srcset="assets/img/gian-hang-hoi-cho-ocop-480.webp 480w, assets/img/gian-hang-hoi-cho-ocop-800.webp 800w" sizes="(max-width: 640px) 92vw, (max-width: 960px) 46vw, 380px" width="800" height="450" alt="Gian hàng hội chợ sản phẩm OCOP Sắc Xuân Xứ Lạng với cổng vòm hoa đào" loading="lazy" decoding="async">
+                <span class="card-tag">Hội chợ OCOP</span>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Gian hàng hội chợ OCOP &amp; đặc sản theo mùa</h4>
+                <p class="card-text">Concept theo chủ đề lễ hội (Tết, mùa hoa, văn hóa vùng miền) với cổng vòm, tiểu cảnh hoa đào, bục kệ trưng bày đặc sản và dãy bàn bán hàng.</p>
+                <div class="card-foot"><button type="button" class="link-arrow" data-open-modal>Tư vấn giải pháp</button></div>
+              </div>
+            </article>
+            <article class="card reveal">
+              <div class="card-media">
+                <img src="assets/img/booth-hoi-nghi-backdrop-lap-ghep-800.webp" srcset="assets/img/booth-hoi-nghi-backdrop-lap-ghep-480.webp 480w, assets/img/booth-hoi-nghi-backdrop-lap-ghep-800.webp 800w" sizes="(max-width: 640px) 92vw, (max-width: 960px) 46vw, 380px" width="800" height="445" alt="Hệ backdrop và standee lắp ghép cho hội nghị tập huấn" loading="lazy" decoding="async">
+                <span class="card-tag">Lắp ghép nhanh</span>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Booth hội nghị, backdrop &amp; standee lắp ghép</h4>
+                <p class="card-text">Gọn nhẹ cho hội thảo, tập huấn, sảnh check-in: backdrop khung nhôm, standee, đèn rọi – lắp đặt, tháo dỡ trong vài giờ, tái sử dụng tiết kiệm chi phí.</p>
+                <div class="card-foot"><button type="button" class="link-arrow" data-open-modal>Liên hệ kỹ thuật</button></div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- Trang thiết bị -->
+        <div class="tab-panel" id="trang-thiet-bi-su-kien" role="tabpanel" aria-labelledby="tab-trang-thiet-bi-su-kien">
+          <div class="panel-head">
+            <div>
+              <h3 class="panel-title">Cung cấp giải pháp trang thiết bị tổ chức sự kiện</h3>
+              <p class="panel-desc">Sân khấu, âm thanh – ánh sáng chuyên nghiệp cùng đội ngũ MC, ca sỹ, KOL/KOC, PG giúp sự kiện vận hành trơn tru từ khâu setup đến khi kết thúc.</p>
+            </div>
+          </div>
+          <div class="grid">
+            <article class="card reveal">
+              <div class="card-media">
+                <img src="assets/img/cho-thue-san-khau-backdrop-800.webp" srcset="assets/img/cho-thue-san-khau-backdrop-480.webp 480w, assets/img/cho-thue-san-khau-backdrop-800.webp 800w" sizes="(max-width: 640px) 92vw, (max-width: 960px) 46vw, 380px" width="800" height="533" alt="Thiết kế và dựng sân khấu lễ tốt nghiệp với khung backdrop và bục sân khấu" loading="lazy" decoding="async">
+                <span class="card-tag">Sân khấu</span>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Sân khấu, backdrop &amp; khung truss</h4>
+                <p class="card-text">Cho thuê và thi công sân khấu mọi kích thước, bục sàn, backdrop, khung truss, nhà bạt, thảm đỏ – dàn dựng theo concept riêng.</p>
+                <div class="card-foot"><button type="button" class="link-arrow" data-open-modal>Báo giá sân khấu</button></div>
+              </div>
+            </article>
+            <article class="card reveal">
+              <div class="card-media">
+                <img src="assets/img/am-thanh-anh-sang-man-led-800.webp" srcset="assets/img/am-thanh-anh-sang-man-led-480.webp 480w, assets/img/am-thanh-anh-sang-man-led-800.webp 800w" sizes="(max-width: 640px) 92vw, (max-width: 960px) 46vw, 380px" width="800" height="533" alt="Hệ thống đèn moving head, par LED và màn hình LED trên giàn truss sân khấu" loading="lazy" decoding="async">
+                <span class="card-tag">Âm thanh – ánh sáng</span>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Hệ thống âm thanh, ánh sáng &amp; màn LED</h4>
+                <p class="card-text">Loa line array, mixer, micro không dây, đèn moving head, par LED, laser, khói lạnh, màn hình LED – kèm kỹ thuật viên vận hành và tổng duyệt.</p>
+                <div class="card-foot"><button type="button" class="link-arrow" data-open-modal>Báo giá thiết bị</button></div>
+              </div>
+            </article>
+            <article class="card reveal">
+              <div class="card-media">
+                <img src="assets/img/nhan-su-mc-ca-sy-pg-800.webp" srcset="assets/img/nhan-su-mc-ca-sy-pg-480.webp 480w, assets/img/nhan-su-mc-ca-sy-pg-800.webp 800w" sizes="(max-width: 640px) 92vw, (max-width: 960px) 46vw, 380px" width="800" height="533" alt="Ban nhạc và ca sỹ biểu diễn trên sân khấu gala dinner" loading="lazy" decoding="async">
+                <span class="card-tag">Nhân sự sự kiện</span>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Nhân sự: MC, ca sỹ, KOL/KOC, PG</h4>
+                <p class="card-text">MC chuyên nghiệp, ca sỹ, ban nhạc, vũ đoàn, KOL/KOC livestream – review, PG/PB lễ tân, dẫn đoàn, phát quà – được đào tạo kịch bản kỹ lưỡng.</p>
+                <div class="card-foot"><button type="button" class="link-arrow" data-open-modal>Đặt nhân sự</button></div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- Biểu diễn nghệ thuật -->
+        <div class="tab-panel" id="bieu-dien-nghe-thuat" role="tabpanel" aria-labelledby="tab-bieu-dien-nghe-thuat">
+          <div class="panel-head">
+            <div>
+              <h3 class="panel-title">Tổ chức biểu diễn nghệ thuật &amp; chương trình ca múa nhạc</h3>
+              <p class="panel-desc">Đạo diễn, dàn dựng chương trình nghệ thuật, đại nhạc hội, lễ hội văn hóa và tiết mục biểu diễn cho sự kiện doanh nghiệp, ngày lễ lớn.</p>
+            </div>
+            <a class="btn btn-ghost btn-sm" href="https://www.facebook.com/share/v/1KG8WUYLkE/?mibextid=wwXIfr" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="6 4 20 12 6 20 6 4"/></svg>Xem video chương trình</a>
+          </div>
+          <div class="grid">
+            <article class="card reveal">
+              <div class="card-media">
+                <img src="assets/img/bieu-dien-mua-co-to-quoc-800.webp" srcset="assets/img/bieu-dien-mua-co-to-quoc-480.webp 480w, assets/img/bieu-dien-mua-co-to-quoc-800.webp 800w" sizes="(max-width: 640px) 92vw, (max-width: 960px) 46vw, 380px" width="800" height="533" alt="Tiết mục múa cờ Tổ quốc trên sân khấu sự kiện doanh nghiệp" loading="lazy" decoding="async">
+                <span class="card-tag">Chương trình chủ đề</span>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Tiết mục múa – hát chủ đề</h4>
+                <p class="card-text">Dàn dựng tiết mục múa cờ, hợp xướng, hát truyền thống theo chủ đề sự kiện, kết hợp màn hình LED và hiệu ứng sân khấu.</p>
+                <div class="card-foot"><button type="button" class="link-arrow" data-open-modal>Nhận kịch bản</button></div>
+              </div>
+            </article>
+            <article class="card reveal">
+              <div class="card-media">
+                <img src="assets/img/bieu-dien-vu-doan-su-kien-800.webp" srcset="assets/img/bieu-dien-vu-doan-su-kien-480.webp 480w, assets/img/bieu-dien-vu-doan-su-kien-800.webp 800w" sizes="(max-width: 640px) 92vw, (max-width: 960px) 46vw, 380px" width="800" height="533" alt="Vũ đoàn biểu diễn mở màn chương trình Tết Làng Ta" loading="lazy" decoding="async">
+                <span class="card-tag">Vũ đoàn chuyên nghiệp</span>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Vũ đoàn &amp; tiết mục mở màn</h4>
+                <p class="card-text">Vũ đoàn hiện đại, dance sport, múa đương đại cho màn khai mạc, tiệc Tất niên, Gala – khuấy động cảm xúc ngay từ phút đầu.</p>
+                <div class="card-foot"><button type="button" class="link-arrow" data-open-modal>Nhận báo giá</button></div>
+              </div>
+            </article>
+            <article class="card reveal">
+              <div class="card-media">
+                <img src="assets/img/bieu-dien-tiet-muc-chu-de-800.webp" srcset="assets/img/bieu-dien-tiet-muc-chu-de-480.webp 480w, assets/img/bieu-dien-tiet-muc-chu-de-800.webp 800w" sizes="(max-width: 640px) 92vw, (max-width: 960px) 46vw, 380px" width="800" height="533" alt="Tiết mục múa trang phục truyền thống với phông nền hoa anh đào" loading="lazy" decoding="async">
+                <span class="card-tag">Nghệ thuật dân gian</span>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Tiết mục văn hóa – lễ hội</h4>
+                <p class="card-text">Tiết mục mang bản sắc văn hóa, múa dân gian, áo dài, trang phục truyền thống cho lễ hội, ngày hội du lịch và sự kiện đối ngoại.</p>
+                <div class="card-foot"><button type="button" class="link-arrow" data-open-modal>Nhận báo giá</button></div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- Diễn tập -->
+        <div class="tab-panel" id="dien-tap-tren-bien" role="tabpanel" aria-labelledby="tab-dien-tap-tren-bien">
+          <div class="panel-head">
+            <div>
+              <h3 class="panel-title">Tổ chức sự kiện diễn tập thực địa &amp; diễn tập trên biển</h3>
+              <p class="panel-desc">Điều hành sự kiện diễn tập quy mô lớn phối hợp lực lượng vũ trang, ban ngành và tập đoàn năng lượng với quy trình an toàn nghiêm ngặt.</p>
+            </div>
+          </div>
+          <div class="grid grid-2">
+            <article class="card reveal">
+              <div class="card-media">
+                <img src="assets/img/dien-tap-tran-dau-my-khe-800.webp" srcset="assets/img/dien-tap-tran-dau-my-khe-480.webp 480w, assets/img/dien-tap-tran-dau-my-khe-800.webp 800w" sizes="(max-width: 640px) 92vw, (max-width: 960px) 46vw, 380px" width="800" height="534" alt="Toàn cảnh lễ khai mạc diễn tập ứng phó sự cố tràn dầu tại cảng Mỹ Khê Đà Nẵng" loading="lazy" decoding="async">
+                <span class="card-tag">Cảng Mỹ Khê – Đà Nẵng</span>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Diễn tập ứng phó sự cố tràn dầu</h4>
+                <p class="card-text">Nhà bạt đại biểu trên bờ biển, màn hình LED truyền trực tiếp tình huống ngoài khơi, âm thanh công suất lớn và thảm đỏ đón tiếp lãnh đạo.</p>
+                <div class="card-foot"><button type="button" class="link-arrow" data-open-modal>Xem chi tiết dự án</button></div>
+              </div>
+            </article>
+            <article class="card reveal">
+              <div class="card-media">
+                <img src="assets/img/dien-tap-chi-huy-thuc-dia-800.webp" srcset="assets/img/dien-tap-chi-huy-thuc-dia-480.webp 480w, assets/img/dien-tap-chi-huy-thuc-dia-800.webp 800w" sizes="(max-width: 640px) 92vw, (max-width: 960px) 46vw, 380px" width="800" height="533" alt="Chỉ huy điều hành diễn tập thực địa trên bờ biển Mỹ Khê Đà Nẵng" loading="lazy" decoding="async">
+                <span class="card-tag">Điều hành chuyên nghiệp</span>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Kịch bản phối hợp &amp; đảm bảo an toàn</h4>
+                <p class="card-text">Điều phối tàu thuyền cứu hộ, hệ thống liên lạc thực địa và đón tiếp các đoàn kiểm tra giám sát cấp Bộ, Sở ngành an toàn tuyệt đối.</p>
+                <div class="card-foot"><button type="button" class="link-arrow" data-open-modal>Tư vấn phương án</button></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TOUR & TEAM BUILDING ===== -->
+    <section class="section section--alt" id="tour-team-building" aria-labelledby="tour-tb-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Hành trình &amp; gắn kết</p>
+          <h2 class="section-title" id="tour-tb-title">Tour doanh nghiệp &amp; Team Building</h2>
+          <p class="section-desc">Kết hợp nghỉ dưỡng 4–5 sao, khám phá danh thắng và hoạt động tập thể truyền cảm hứng – thiết kế riêng theo văn hóa từng doanh nghiệp.</p>
+        </header>
+
+        <div class="tabs" role="tablist" aria-label="Tour và Team Building" data-tabs="travel">
+          <button class="tab" role="tab" id="tab-tour-du-lich" aria-controls="tour-du-lich" aria-selected="true">Tour du lịch doanh nghiệp</button>
+          <button class="tab" role="tab" id="tab-team-building" aria-controls="team-building" aria-selected="false" tabindex="-1">Team Building</button>
+        </div>
+
+        <div class="tab-panel" id="tour-du-lich" role="tabpanel" aria-labelledby="tab-tour-du-lich">
+          <h3 class="sr-only">Tour du lịch doanh nghiệp &amp; Company Trip</h3>
+          <div class="grid">
+            <article class="tour-card reveal">
+              <img src="assets/img/tour-bien-dao-cat-ba-800.webp" srcset="assets/img/tour-bien-dao-cat-ba-480.webp 480w, assets/img/tour-bien-dao-cat-ba-800.webp 800w" sizes="(max-width: 640px) 92vw, (max-width: 960px) 46vw, 380px" width="800" height="533" alt="Tour du lịch biển Cát Bà kết hợp Gala Dinner" loading="lazy" decoding="async">
+              <div class="tour-body">
+                <span class="card-tag">Company trip biển</span>
+                <h4>Tour doanh nghiệp biển đảo nghỉ dưỡng</h4>
+                <p>Cát Bà, Hạ Long, Đà Nẵng, Nha Trang, Phú Quốc. Du thuyền, resort cao cấp và đêm Gala Dinner rực rỡ bên bờ biển.</p>
+                <button type="button" class="btn btn-accent btn-sm" data-open-modal data-service="tour du lịch doanh nghiệp">Nhận lịch trình tour</button>
+              </div>
+            </article>
+            <article class="tour-card reveal">
+              <img src="assets/img/tour-nghi-duong-dai-lai-800.webp" srcset="assets/img/tour-nghi-duong-dai-lai-480.webp 480w, assets/img/tour-nghi-duong-dai-lai-800.webp 800w" sizes="(max-width: 640px) 92vw, (max-width: 960px) 46vw, 380px" width="800" height="533" alt="Tour nghỉ dưỡng kết hợp thể thao tại Flamingo Đại Lải Resort" loading="lazy" decoding="async">
+              <div class="tour-body">
+                <span class="card-tag">Resort &amp; sinh thái</span>
+                <h4>Tour nghỉ dưỡng &amp; giao lưu thể thao</h4>
+                <p>Đại Lải, Ba Vì, Tam Đảo, Mai Châu, Hòa Bình. Giải thể thao nội bộ (Pickleball, Tennis, Golf) và tiệc BBQ ngoài trời.</p>
+                <button type="button" class="btn btn-accent btn-sm" data-open-modal data-service="tour du lịch doanh nghiệp">Nhận lịch trình tour</button>
+              </div>
+            </article>
+            <article class="tour-card reveal">
+              <img src="assets/img/tour-mice-gala-ha-long-800.webp" srcset="assets/img/tour-mice-gala-ha-long-480.webp 480w, assets/img/tour-mice-gala-ha-long-800.webp 800w" sizes="(max-width: 640px) 92vw, (max-width: 960px) 46vw, 380px" width="800" height="533" alt="Tour MICE kết hợp gala dinner company trip của NTX Group" loading="lazy" decoding="async">
+              <div class="tour-body">
+                <span class="card-tag">Du lịch M.I.C.E</span>
+                <h4>Tour du lịch kết hợp hội thảo &amp; gala</h4>
+                <p>Mô hình MICE cho đại hội khách hàng: khách sạn 5 sao, phòng hội thảo hiện đại và tour tham quan riêng tư.</p>
+                <button type="button" class="btn btn-accent btn-sm" data-open-modal data-service="tour du lịch doanh nghiệp">Nhận lịch trình tour</button>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="team-building" role="tabpanel" aria-labelledby="tab-team-building">
+          <h3 class="sr-only">Tổ chức Team Building doanh nghiệp</h3>
+          <div class="feature-grid">
+            <article class="feature">
+              <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><path d="M2 17c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><path d="M2 7c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/></svg></div>
+              <h4>Team Building bãi biển</h4>
+              <p>Thử thách đối kháng, vượt chướng ngại vật khổng lồ, trò chơi phao hơi đầy màu sắc trên bãi biển thoáng đãng.</p>
+            </article>
+            <article class="feature">
+              <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg></div>
+              <h4>Amazing Race – giải mã</h4>
+              <p>Khám phá địa hình, mật thư giải đố ứng dụng công nghệ, đòi hỏi chiến thuật và phối hợp nhịp nhàng giữa các phòng ban.</p>
+            </article>
+            <article class="feature">
+              <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z"/><path d="M2 21c0-3 1.85-5.36 5.08-6"/></svg></div>
+              <h4>Team Building resort sinh thái</h4>
+              <p>Trò chơi tương tác chiều sâu trên bãi cỏ, khuôn viên resort – gắn kết cảm xúc và thấu hiểu giá trị cốt lõi công ty.</p>
+            </article>
+            <article class="feature">
+              <div class="feature-icon"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+              <h4>Combo Team Building + Gala</h4>
+              <p>Trọn gói trong ngày hoặc 2N1Đ: ban ngày vận động nhiệt huyết, buổi tối tỏa sáng trong đêm Gala vinh danh.</p>
+            </article>
+          </div>
+          <div class="cta-box">
+            <div>
+              <h3>Nhận kịch bản Team Building mẫu miễn phí</h3>
+              <p>Phù hợp số lượng nhân sự, độ tuổi và văn hóa công ty – gửi trong vòng 1 giờ làm việc.</p>
+            </div>
+            <button type="button" class="btn btn-accent btn-lg" data-open-modal data-service="team building">Nhận kịch bản</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GIỚI THIỆU + VÌ SAO ===== -->
+    <section class="section" id="gioi-thieu" aria-labelledby="about-title">
+      <div class="container">
+        <div class="about">
+          <div class="about-media reveal">
+            <img src="assets/img/ve-kc-event-doi-ngu-800.webp" srcset="assets/img/ve-kc-event-doi-ngu-480.webp 480w, assets/img/ve-kc-event-doi-ngu-800.webp 800w" sizes="(max-width: 960px) 92vw, 560px" width="800" height="533" alt="Tập thể khách mời trong đêm gala kỷ niệm 5 năm do KC Event tổ chức" loading="lazy" decoding="async">
+            <div class="about-badge"><strong>100%</strong><span>Cam kết chuẩn xác từng chi tiết timeline &amp; kịch bản</span></div>
+          </div>
+          <div class="reveal">
+            <header class="section-head">
+              <p class="eyebrow">Về KC Event</p>
+              <h2 class="section-title" id="about-title">Đối tác chiến lược cho mọi sự kiện &amp; hành trình doanh nghiệp</h2>
+            </header>
+            <p class="about-lead">KC Event (Công ty TNHH Tổ chức Sự kiện và Truyền thông KC Group) chuyên tư vấn, lên ý tưởng, thiết kế và triển khai trọn gói sự kiện doanh nghiệp, tour khách đoàn và team building.</p>
+            <p>Mỗi sự kiện hay chuyến đi là cơ hội để doanh nghiệp khẳng định vị thế thương hiệu, tri ân khách hàng, đối tác và lan tỏa tinh thần gắn kết đến từng nhân sự.</p>
+            <ul class="checklist">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Ý tưởng &amp; kịch bản sáng tạo độc quyền</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Làm chủ 100% hệ thống trang thiết bị</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Mạng lưới đối tác resort, vận chuyển 5 sao</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Báo giá minh bạch, không phát sinh</li>
+            </ul>
+            <a href="#lien-he" class="btn btn-primary">Liên hệ tư vấn trực tiếp</a>
+          </div>
+        </div>
+
+        <div class="why">
+          <header class="section-head reveal">
+            <p class="eyebrow">Thế mạnh</p>
+            <h2 class="section-title">Vì sao 100+ doanh nghiệp chọn KC Event?</h2>
+          </header>
+          <div class="feature-grid reveal">
+            <article class="feature"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div><h3 class="h4">Đội ngũ giàu kinh nghiệm</h3><p>Đạo diễn sân khấu, MC, điều hành sự kiện và hướng dẫn viên chuyên nghiệp, xử lý linh hoạt mọi tình huống.</p></article>
+            <article class="feature"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2z"/></svg></div><h3 class="h4">Kịch bản độc quyền</h3><p>Không rập khuôn – mỗi sự kiện có ý tưởng riêng dựa trên bản sắc văn hóa và mục tiêu kinh doanh của khách hàng.</p></article>
+            <article class="feature"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div><h3 class="h4">Làm chủ trang thiết bị</h3><p>Kho âm thanh, ánh sáng, màn hình LED, nhà bạt không gian hiện đại – tiết kiệm chi phí trung gian.</p></article>
+            <article class="feature"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div><h3 class="h4">Mạng lưới đối tác rộng</h3><p>Hợp tác với khách sạn, resort 4–5 sao, trung tâm hội nghị và hãng hàng không để có giá ưu đãi tốt nhất.</p></article>
+            <article class="feature"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div><h3 class="h4">Tối ưu ngân sách</h3><p>Phương án phù hợp quỹ tài chính, hóa đơn chứng từ minh bạch, không phát sinh ngoài hợp đồng.</p></article>
+            <article class="feature"><div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3 class="h4">Đồng hành 24/7</h3><p>Chuyên viên quản lý dự án túc trực từ lúc lên ý tưởng đến khi kết thúc sự kiện.</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== QUY TRÌNH ===== -->
+    <section class="section section--alt" id="quy-trinh" aria-labelledby="process-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Quy trình chuẩn</p>
+          <h2 class="section-title" id="process-title">6 bước triển khai chuyên nghiệp &amp; chu toàn</h2>
+          <p class="section-desc">Kiểm soát chặt chẽ từng mốc thời gian, hạn chế tối đa rủi ro, cam kết trải nghiệm hoàn hảo.</p>
+        </header>
+        <ol class="steps reveal">
+          <li class="step"><h3>Tiếp nhận nhu cầu</h3><p>Lắng nghe mục tiêu, số lượng khách, thông điệp truyền thông và ngân sách dự kiến.</p></li>
+          <li class="step"><h3>Tư vấn ý tưởng &amp; concept</h3><p>Xây dựng concept chủ đề, thiết kế sơ bộ 2D/3D và đề xuất địa điểm tối ưu.</p></li>
+          <li class="step"><h3>Xây dựng kịch bản chi tiết</h3><p>Kịch bản từng phút, phân công nhân sự, khảo sát hiện trường và phương án an toàn.</p></li>
+          <li class="step"><h3>Báo giá tối ưu &amp; hợp đồng</h3><p>Dự toán rõ ràng từng hạng mục thiết bị, nhân sự, địa điểm – không chi phí ẩn.</p></li>
+          <li class="step"><h3>Triển khai &amp; giám sát</h3><p>Setup sớm, test kỹ thuật âm thanh ánh sáng và tổng duyệt cùng đạo diễn sân khấu.</p></li>
+          <li class="step"><h3>Nghiệm thu &amp; bàn giao</h3><p>Bàn giao hình ảnh, video recap, tiếp nhận phản hồi và quyết toán hóa đơn đầy đủ.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== DỰ ÁN ===== -->
+    <section class="section" id="du-an" aria-labelledby="gallery-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Dự án thực tế</p>
+          <h2 class="section-title" id="gallery-title">Khoảnh khắc từ các sự kiện &amp; tour đã thực hiện</h2>
+          <p class="section-desc">Hình ảnh thực tế tại các chương trình do KC Event tổ chức. Nhấn vào ảnh để phóng to.</p>
+        </header>
+        <div class="filters" role="group" aria-label="Lọc dự án">
+          <button type="button" class="tab" data-filter="all" aria-pressed="true">Tất cả</button>
+          <button type="button" class="tab" data-filter="event" aria-pressed="false">Sự kiện &amp; khởi công</button>
+          <button type="button" class="tab" data-filter="gala" aria-pressed="false">Gala &amp; YEP</button>
+          <button type="button" class="tab" data-filter="teambuilding" aria-pressed="false">Team Building</button>
+          <button type="button" class="tab" data-filter="travel" aria-pressed="false">Tour du lịch</button>
+        </div>
+        <div class="gallery" id="gallery" aria-live="polite"></div>
+        <div class="gallery-more"><button type="button" class="btn btn-ghost" id="gallery-more" hidden>Xem thêm dự án</button></div>
+        <noscript><p class="section-desc" style="text-align:center">Bật JavaScript để xem thư viện ảnh dự án.</p></noscript>
+      </div>
+    </section>
+
+    <!-- ===== KHÁCH HÀNG + ĐÁNH GIÁ ===== -->
+    <section class="section section--alt" id="khach-hang" aria-labelledby="clients-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Khách hàng &amp; đối tác</p>
+          <h2 class="section-title" id="clients-title">Được tin tưởng bởi các doanh nghiệp hàng đầu</h2>
+        </header>
+      </div>
+      <div class="marquee" aria-label="Danh sách khách hàng tiêu biểu">
+        <ul class="marquee-track">
+          <li class="client"><strong>VINFAST</strong><span>Showroom Grand Opening</span></li>
+          <li class="client"><strong>RICONS</strong><span>Lễ khởi công TT Genesis</span></li>
+          <li class="client"><strong>TẬP ĐOÀN TKV</strong><span>Nhiệt điện Sơn Động 20 năm</span></li>
+          <li class="client"><strong>LOTTERIA</strong><span>Khai trương cửa hàng</span></li>
+          <li class="client"><strong>PVCHEM</strong><span>PetroVietnam kỷ niệm 35 năm</span></li>
+          <li class="client"><strong>HATU GROUP</strong><span>Team Building bãi biển</span></li>
+          <li class="client"><strong>BV ĐỨC VIỆT</strong><span>Lễ khởi công bệnh viện</span></li>
+          <li class="client"><strong>NTX GROUP</strong><span>Company Trip &amp; Gala Dinner</span></li>
+          <li class="client"><strong>ISC VINA</strong><span>Year End Party</span></li>
+          <li class="client"><strong>VARS</strong><span>Ngày hội môi giới BĐS</span></li>
+        </ul>
+      </div>
+      <div class="container">
+        <div class="reviews reveal">
+          <figure class="review">
+            <div class="stars" aria-label="Đánh giá 5 sao">★★★★★</div>
+            <blockquote>“KC Event tổ chức lễ khởi công cho dự án của chúng tôi rất chỉn chu. Nhà bạt mát mẻ, bàn ghế đại biểu trang trọng, nghi lễ xúc cát và múa lân diễn ra suôn sẻ, an toàn tuyệt đối.”</blockquote>
+            <figcaption class="review-author"><span class="avatar" aria-hidden="true">NT</span><span><strong>Nguyễn Văn Thành</strong><span>Giám đốc Ban QLDA xây dựng</span></span></figcaption>
+          </figure>
+          <figure class="review">
+            <div class="stars" aria-label="Đánh giá 5 sao">★★★★★</div>
+            <blockquote>“Company Trip và Gala Dinner tại Hạ Long vượt ngoài mong đợi. Kịch bản cảm xúc, âm thanh ánh sáng chuyên nghiệp và MC nhiệt tình đã gắn kết mọi người sau một năm làm việc.”</blockquote>
+            <figcaption class="review-author"><span class="avatar" aria-hidden="true">MP</span><span><strong>Trần Mai Phương</strong><span>Trưởng phòng Nhân sự, tập đoàn công nghệ</span></span></figcaption>
+          </figure>
+          <figure class="review">
+            <div class="stars" aria-label="Đánh giá 5 sao">★★★★★</div>
+            <blockquote>“Lễ khai trương showroom rực rỡ, thu hút đông khách. Photobooth đẹp, kỹ thuật hỗ trợ xuyên suốt. Chi phí hợp lý và không phát sinh khoản nào ngoài hợp đồng.”</blockquote>
+            <figcaption class="review-author"><span class="avatar" aria-hidden="true">QD</span><span><strong>Lê Quốc Dũng</strong><span>Giám đốc Marketing chuỗi showroom</span></span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="section" id="hoi-dap" aria-labelledby="faq-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Hỏi đáp</p>
+          <h2 class="section-title" id="faq-title">Câu hỏi thường gặp</h2>
+        </header>
+        <div class="faq reveal">
+          <details open><summary>KC Event tổ chức những loại sự kiện nào?</summary><div><p>Chúng tôi tổ chức trọn gói lễ khởi công, khánh thành, khai trương, gala dinner, Year End Party, hội nghị – hội thảo, ra mắt sản phẩm, biểu diễn nghệ thuật, diễn tập thực địa; đồng thời thiết kế 2D/3D, thi công gian hàng hội chợ triển lãm, cung cấp sân khấu – âm thanh – ánh sáng – nhân sự, tour du lịch doanh nghiệp và team building.</p></div></details>
+          <details><summary>Bao lâu tôi nhận được báo giá?</summary><div><p>Sau khi nhận thông tin qua form, hotline hoặc Zalo, chuyên viên KC Event phản hồi báo giá sơ bộ trong khoảng 15–30 phút làm việc. Báo giá chi tiết kèm phương án, kịch bản được gửi sau khi thống nhất yêu cầu.</p></div></details>
+          <details><summary>KC Event có tổ chức sự kiện ngoài Hà Nội không?</summary><div><p>Có. Văn phòng tại Hà Nội nhưng KC Event triển khai sự kiện, gian hàng, team building và tour doanh nghiệp tại nhiều tỉnh thành như Quảng Ninh, Hải Phòng, Đà Nẵng, Lạng Sơn, TP. Hồ Chí Minh…</p></div></details>
+          <details><summary>Quy mô sự kiện KC Event đảm nhận là bao nhiêu?</summary><div><p>Từ chương trình nhỏ khoảng 50 khách đến sự kiện hơn 2.000 khách mời, với đầy đủ nhân sự điều hành, kỹ thuật và thiết bị.</p></div></details>
+          <details><summary>Tôi có được xem thiết kế 3D trước khi thi công không?</summary><div><p>Có. Sân khấu, gian hàng, backdrop và toàn cảnh không gian đều được dựng phối cảnh 2D/3D để khách hàng duyệt trước khi sản xuất, thi công thực tế.</p></div></details>
+          <details><summary>Chi phí có phát sinh và có xuất hóa đơn VAT không?</summary><div><p>Báo giá liệt kê rõ từng hạng mục thiết bị, nhân sự, địa điểm; không phát sinh ngoài hợp đồng. KC Event quyết toán và xuất hóa đơn chứng từ đầy đủ theo quy định.</p></div></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== LIÊN HỆ ===== -->
+    <section class="section section--alt" id="lien-he" aria-labelledby="contact-title">
+      <div class="container contact">
+        <div class="contact-info reveal">
+          <h2 id="contact-title">Bạn đang lên kế hoạch cho sự kiện hoặc chuyến đi?</h2>
+          <p>Gửi yêu cầu hoặc gọi hotline – chuyên viên KC Event phản hồi báo giá sơ bộ trong 15–30 phút.</p>
+          <ul class="contact-list">
+            <li><span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span><span><small>Hotline 24/7 &amp; Zalo</small><a href="tel:0981941820" data-bind="hotline-link"><span data-bind="hotline">0981.941.820</span></a></span></li>
+            <li><span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></span><span><small>Email</small><a href="mailto:truyenthongsukienkcgroup@gmail.com" data-bind="email-link"><span data-bind="email">truyenthongsukienkcgroup@gmail.com</span></a></span></li>
+            <li><span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span><span><small>Văn phòng</small><span data-bind="address">Khu Đô Thị Thanh Hà, Cự Khê, Thanh Oai, Hà Nội</span></span></li>
+            <li><span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span><span><small>Giờ làm việc</small><span>Thứ 2 – Thứ 7: 08:00 – 18:30 (hotline 24/7)</span></span></li>
+          </ul>
+          <p class="contact-note">MST: <span data-bind="tax-code">0111572242</span> · <span data-bind="legal-name">CÔNG TY TNHH TỔ CHỨC SỰ KIỆN VÀ TRUYỀN THÔNG KC GROUP</span></p>
+        </div>
+
+        <div class="form-card reveal">
+          <h3>Đăng ký nhận báo giá chi tiết</h3>
+          <p>Điền thông tin, chúng tôi sẽ xây dựng phương án và bảng giá tối ưu cho doanh nghiệp.</p>
+          <form class="lead-form" id="form-main" novalidate>
+            <div class="form-grid">
+              <div class="form-group">
+                <label class="form-label" for="name-main">Họ và tên <span class="req">*</span></label>
+                <input class="form-control" type="text" id="name-main" name="fullname" autocomplete="name" placeholder="Nguyễn Văn A" required minlength="2">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="phone-main">Số điện thoại <span class="req">*</span></label>
+                <input class="form-control" type="tel" id="phone-main" name="phone" autocomplete="tel" inputmode="tel" placeholder="09xx xxx xxx" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="email-main">Email</label>
+                <input class="form-control" type="email" id="email-main" name="email" autocomplete="email" placeholder="ten@congty.vn">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="company-main">Công ty / tổ chức <span class="req">*</span></label>
+                <input class="form-control" type="text" id="company-main" name="company" autocomplete="organization" placeholder="Tên doanh nghiệp" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="service-main">Dịch vụ quan tâm <span class="req">*</span></label>
+                <select class="form-control" id="service-main" name="service" required>
+                  <option value="" selected disabled>-- Chọn dịch vụ --</option>
+                  <option value="khởi công - khánh thành - khai trương">Lễ khởi công / khánh thành / khai trương</option>
+                  <option value="gala dinner - year end party">Gala dinner / Year End Party / tất niên</option>
+                  <option value="hội nghị - hội thảo">Hội nghị / hội thảo / tri ân khách hàng</option>
+                  <option value="thiết kế 2D - 3D">Thiết kế 2D &amp; phối cảnh 3D</option>
+                  <option value="thi công gian hàng">Thi công gian hàng hội chợ, triển lãm</option>
+                  <option value="trang thiết bị sự kiện">Sân khấu, âm thanh, ánh sáng, nhân sự</option>
+                  <option value="biểu diễn nghệ thuật">Biểu diễn nghệ thuật</option>
+                  <option value="diễn tập">Diễn tập thực địa / trên biển</option>
+                  <option value="team building">Team Building</option>
+                  <option value="tour du lịch doanh nghiệp">Tour du lịch / Company Trip</option>
+                  <option value="combo trọn gói">Combo trọn gói (Tour + Team Building + Gala)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="guests-main">Số lượng khách</label>
+                <select class="form-control" id="guests-main" name="guests">
+                  <option value="dưới 50 khách">Dưới 50 khách</option>
+                  <option value="50 - 100 khách" selected>50 – 100 khách</option>
+                  <option value="100 - 300 khách">100 – 300 khách</option>
+                  <option value="300 - 500 khách">300 – 500 khách</option>
+                  <option value="trên 500 khách">Trên 500 khách</option>
+                </select>
+              </div>
+              <div class="form-group full">
+                <label class="form-label" for="notes-main">Thời gian, địa điểm &amp; yêu cầu chi tiết</label>
+                <textarea class="form-control" id="notes-main" name="notes" rows="3" placeholder="Ví dụ: tháng 12, Hạ Long, 150 khách, ngân sách dự kiến..."></textarea>
+              </div>
+              <div class="hp-field" aria-hidden="true">
+                <label for="website-main">Website</label>
+                <input type="text" id="website-main" name="website" tabindex="-1" autocomplete="off">
+              </div>
+              <div class="form-group full">
+                <label class="form-check"><input type="checkbox" name="agree" checked required> <span>Tôi đồng ý để KC Event liên hệ tư vấn và gửi báo giá theo thông tin trên.</span></label>
+              </div>
+              <div class="form-group full">
+                <button type="submit" class="btn btn-accent btn-lg btn-block">Gửi yêu cầu báo giá</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#top" class="brand" aria-label="KC Event – về đầu trang">
+          <img src="assets/img/logo-kc.webp" alt="" width="52" height="38" loading="lazy">
+          <span class="brand-name">KC <span>EVENT</span></span>
+        </a>
+        <p class="footer-legal">Đối tác tổ chức sự kiện và tour du lịch doanh nghiệp: kịch bản độc bản, thiết bị hiện đại, dịch vụ tận tâm, chi phí tối ưu.</p>
+        <div class="socials">
+          <a href="https://facebook.com/kcevent.vn" target="_blank" rel="noopener" aria-label="Facebook KC Event"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="https://zalo.me/0981941820" target="_blank" rel="noopener" aria-label="Zalo KC Event">Zalo</a>
+          <a href="https://youtube.com/@kcevent" target="_blank" rel="noopener" aria-label="YouTube KC Event"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8zM9.8 15.1V8.9L15.2 12l-5.4 3.1z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h3>Sự kiện</h3>
+        <ul class="footer-links">
+          <li><a href="#su-kien">Khởi công &amp; khai trương</a></li>
+          <li><a href="#su-kien">Gala dinner &amp; Year End Party</a></li>
+          <li><a href="#su-kien">Hội nghị &amp; hội thảo</a></li>
+          <li><a href="#thiet-ke-2d-3d">Thiết kế 2D &amp; 3D</a></li>
+          <li><a href="#thi-cong-gian-hang">Thi công gian hàng</a></li>
+          <li><a href="#trang-thiet-bi-su-kien">Sân khấu, âm thanh &amp; nhân sự</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Tour &amp; Team Building</h3>
+        <ul class="footer-links">
+          <li><a href="#tour-du-lich">Tour doanh nghiệp nghỉ dưỡng</a></li>
+          <li><a href="#tour-du-lich">Tour M.I.C.E khách đoàn</a></li>
+          <li><a href="#team-building">Team Building bãi biển</a></li>
+          <li><a href="#team-building">Amazing Race</a></li>
+          <li><a href="#bieu-dien-nghe-thuat">Biểu diễn nghệ thuật</a></li>
+          <li><a href="#dien-tap-tren-bien">Diễn tập trên biển</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Liên hệ</h3>
+        <ul class="footer-links">
+          <li><a href="tel:0981941820" data-bind="hotline-link">Hotline: <span data-bind="hotline">0981.941.820</span></a></li>
+          <li><a href="mailto:truyenthongsukienkcgroup@gmail.com" data-bind="email-link"><span data-bind="email">truyenthongsukienkcgroup@gmail.com</span></a></li>
+          <li><span data-bind="address">Khu Đô Thị Thanh Hà, Cự Khê, Thanh Oai, Hà Nội</span></li>
+          <li>MST: <span data-bind="tax-code">0111572242</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span data-bind="current-year">2026</span> <span data-bind="legal-name">CÔNG TY TNHH TỔ CHỨC SỰ KIỆN VÀ TRUYỀN THÔNG KC GROUP</span></span>
+      <a href="#top">Lên đầu trang ↑</a>
+    </div>
+  </footer>
+
+  <!-- Floating contact -->
+  <div class="float-contact" aria-label="Liên hệ nhanh">
+    <a href="tel:0981941820" class="float-btn float-call" data-bind="hotline-link" aria-label="Gọi hotline"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a>
+    <a href="https://zalo.me/0981941820" target="_blank" rel="noopener" class="float-btn float-zalo" aria-label="Chat Zalo">Zalo</a>
+    <a href="https://m.me/kcevent.vn" target="_blank" rel="noopener" class="float-btn float-mess" aria-label="Chat Facebook Messenger"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.03 2 11c0 2.87 1.48 5.43 3.8 7.07V22l3.75-2.06c.78.22 1.6.34 2.45.34 5.52 0 10-4.03 10-9s-4.48-9-10-9zm1.06 12.13l-2.55-2.73-4.98 2.73 5.47-5.8 2.61 2.73 4.92-2.73-5.47 5.8z"/></svg></a>
+  </div>
+
+  <!-- Quote modal -->
+  <div class="modal" id="quote-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-dialog form-card">
+      <button type="button" class="icon-btn modal-close" aria-label="Đóng"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+      <h3 id="modal-title">Nhận báo giá trọn gói</h3>
+      <p>Để lại thông tin, KC Event gửi báo giá và kịch bản mẫu qua Email/Zalo trong 15–30 phút.</p>
+      <form class="lead-form" id="form-modal" novalidate>
+            <div class="form-grid">
+              <div class="form-group">
+                <label class="form-label" for="name-modal">Họ và tên <span class="req">*</span></label>
+                <input class="form-control" type="text" id="name-modal" name="fullname" autocomplete="name" placeholder="Nguyễn Văn A" required minlength="2">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="phone-modal">Số điện thoại <span class="req">*</span></label>
+                <input class="form-control" type="tel" id="phone-modal" name="phone" autocomplete="tel" inputmode="tel" placeholder="09xx xxx xxx" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="email-modal">Email</label>
+                <input class="form-control" type="email" id="email-modal" name="email" autocomplete="email" placeholder="ten@congty.vn">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="company-modal">Công ty / tổ chức <span class="req">*</span></label>
+                <input class="form-control" type="text" id="company-modal" name="company" autocomplete="organization" placeholder="Tên doanh nghiệp" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="service-modal">Dịch vụ quan tâm <span class="req">*</span></label>
+                <select class="form-control" id="service-modal" name="service" required>
+                  <option value="" selected disabled>-- Chọn dịch vụ --</option>
+                  <option value="khởi công - khánh thành - khai trương">Lễ khởi công / khánh thành / khai trương</option>
+                  <option value="gala dinner - year end party">Gala dinner / Year End Party / tất niên</option>
+                  <option value="hội nghị - hội thảo">Hội nghị / hội thảo / tri ân khách hàng</option>
+                  <option value="thiết kế 2D - 3D">Thiết kế 2D &amp; phối cảnh 3D</option>
+                  <option value="thi công gian hàng">Thi công gian hàng hội chợ, triển lãm</option>
+                  <option value="trang thiết bị sự kiện">Sân khấu, âm thanh, ánh sáng, nhân sự</option>
+                  <option value="biểu diễn nghệ thuật">Biểu diễn nghệ thuật</option>
+                  <option value="diễn tập">Diễn tập thực địa / trên biển</option>
+                  <option value="team building">Team Building</option>
+                  <option value="tour du lịch doanh nghiệp">Tour du lịch / Company Trip</option>
+                  <option value="combo trọn gói">Combo trọn gói (Tour + Team Building + Gala)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="guests-modal">Số lượng khách</label>
+                <select class="form-control" id="guests-modal" name="guests">
+                  <option value="dưới 50 khách">Dưới 50 khách</option>
+                  <option value="50 - 100 khách" selected>50 – 100 khách</option>
+                  <option value="100 - 300 khách">100 – 300 khách</option>
+                  <option value="300 - 500 khách">300 – 500 khách</option>
+                  <option value="trên 500 khách">Trên 500 khách</option>
+                </select>
+              </div>
+              <div class="form-group full">
+                <label class="form-label" for="notes-modal">Thời gian, địa điểm &amp; yêu cầu chi tiết</label>
+                <textarea class="form-control" id="notes-modal" name="notes" rows="3" placeholder="Ví dụ: tháng 12, Hạ Long, 150 khách, ngân sách dự kiến..."></textarea>
+              </div>
+              <div class="hp-field" aria-hidden="true">
+                <label for="website-modal">Website</label>
+                <input type="text" id="website-modal" name="website" tabindex="-1" autocomplete="off">
+              </div>
+              <div class="form-group full">
+                <label class="form-check"><input type="checkbox" name="agree" checked required> <span>Tôi đồng ý để KC Event liên hệ tư vấn và gửi báo giá theo thông tin trên.</span></label>
+              </div>
+              <div class="form-group full">
+                <button type="submit" class="btn btn-accent btn-lg btn-block">Gửi yêu cầu báo giá</button>
+              </div>
+            </div>
+          </form>
+    </div>
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Xem ảnh phóng to" aria-hidden="true">
+    <button type="button" class="lb-btn lb-close" aria-label="Đóng"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    <button type="button" class="lb-btn lb-prev" aria-label="Ảnh trước"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <button type="button" class="lb-btn lb-next" aria-label="Ảnh sau"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+    <figure>
+      <img src="data:," alt="">
+      <figcaption><strong class="lb-title"></strong><small class="lb-meta"></small></figcaption>
+    </figure>
+  </div>
+
+  <script src="js/config.js" defer></script>
+  <script src="js/gallery-data.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

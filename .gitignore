@@ -1,0 +1,6 @@
+*.tmp
+*.opt
+*.ppm
+node_modules/
+.DS_Store
+

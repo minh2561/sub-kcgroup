@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /kcevent/*.pdf$
+
+Sitemap: https://kcevent.vn/sitemap.xml
